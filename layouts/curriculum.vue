@@ -7,10 +7,8 @@ const route = useRoute();
     <AppNavbar :title="route.meta.title" />
 
     <main class="flex-1 overflow-y-auto">
-      <slot />
+      <AppContentCv />
     </main>
-
-    <AppNavigation />
     <AppFooter />
   </div>
 </template>

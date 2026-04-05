@@ -5,12 +5,9 @@ const route = useRoute();
 <template>
   <div class="flex h-screen flex-col overflow-hidden crt-blue scanlines">
     <AppNavbar :title="route.meta.title" />
-
     <main class="flex-1 overflow-y-auto">
       <slot />
     </main>
-
-    <AppNavigation />
     <AppFooter />
   </div>
 </template>
