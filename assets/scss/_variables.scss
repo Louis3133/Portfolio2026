@@ -1,0 +1,56 @@
+@use "~/assets/scss/functions" as *;
+
+// Colors
+
+$primary: #93eef3;
+$secondary: #193f53;
+
+$blue-100: #93eef3;
+$blue-200: #1f61ef;
+$blue-300: #193f53;
+
+$pink-100: #ffaad9;
+$yellow-100: #fcd25c;
+$green-100: #5bf09b;
+
+// Fonts
+
+$font-family-VT323: "VT323", sans-serif;
+$font-family-Input: "Input Sans Condensed", sans-serif;
+
+// Media Queries
+
+$from: min-width;
+$until: max-width;
+
+$breakpoints: (
+  mobile-sm: 400px,
+  tablet: 578px,
+  desktop: 998px,
+  wide: 1200px,
+  extrawide: 1400px,
+  hd: 1500px,
+);
+
+@mixin mq($query) {
+  $direction: nth($query, 1);
+  $breakpoint: nth($query, 2);
+
+  $value: map-get($breakpoints, $breakpoint);
+
+  @if $direction == $from {
+    @media (min-width: $value) {
+      @content;
+    }
+  } @else if $direction == $until {
+    @media (max-width: $value - 1px) {
+      @content;
+    }
+  }
+}
+
+// Font Sizes
+
+$font-size-title-h1: fluid(24px, 32px, 393px, 1200px);
+$font-size-title-h2: fluid(20px, 28px, 393px, 1200px);
+$font-size-text: fluid(16px, 18px, 393px, 1200px);
