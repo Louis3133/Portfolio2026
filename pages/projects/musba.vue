@@ -217,6 +217,10 @@ definePageMeta({
         { gender: 'female', lastname: 'C', firstname: 'Line', job: 'Créa', link: 'https://www.linkedin.com/in/line-cabaret/' }]"
       :projects="[{ type: 'school', description: 'BUT MMI', title: 'Projet étudiant' }]"
       intentions="Nous avons voulu être ambitieux en intégrant de la 3D au projet. L'idée de départ était de proposer une carte interactive pour localiser les œuvres de Jean Dupas à travers le monde. Si la version 2D était fonctionnelle, elle manquait de dynamisme. L'ajout de la 3D a rendu la navigation beaucoup plus immersive grâce aux mouvements de caméra, tout en proposant une représentation des lieux plus originale et stimulante pour le visiteur."
+      title-image1="Section &quot;Tarifs&quot;"
+      image1="/musba-2.webp"
+      title-image2="Hero de la page"
+      image2="/musba-1.webp"
     />
     <div class="valid-musba" />
   </div>

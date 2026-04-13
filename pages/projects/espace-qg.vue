@@ -204,6 +204,10 @@ definePageMeta({
       :members="[{ gender: 'female', lastname: 'L', firstname: 'Léa', job: 'Créa / Dev', link: 'https://www.linkedin.com/in/l%C3%A9a-lafaye-545026215/' }, { gender: 'female', lastname: 'C', firstname: 'Line', job: 'Créa / Dev', link: 'https://www.linkedin.com/in/line-cabaret/' }, { gender: 'male', lastname: 'L', firstname: 'Louis', job: 'Lead dev', link: 'https://www.linkedin.com/in/louis-le-doussal-206b7a278/' }]"
       :projects="[{ type: 'personal', description: 'Engagement associatif', title: 'Projet personnel' }]"
       intentions="Dès le départ, l’esthétique audacieuse de ce projet a été une véritable source de motivation. Loin des standards habituels, ce site propose un univers visuel qui 'casse les codes', ce qui représentait un défi d’intégration particulièrement stimulant. J'ai immédiatement perçu le potentiel de ces maquettes pour le design d’interaction. J’en ai donc profité pour intégrer de nombreuses animations, visant à renforcer le dynamisme  et à rendre l'expérience utilisateur aussi unique que son identité visuelle."
+      title-image1="Section &quot;Actualités&quot;"
+      image1="/espace-qg-1.webp"
+      title-image2="Section &quot;Nous soutenir&quot;"
+      image2="/espace-qg-2.webp"
     />
     <div class="valid-espace-qg" />
   </div>

@@ -6,8 +6,8 @@ import { useRouter } from "vue-router";
 
 gsap.registerPlugin(MorphSVGPlugin);
 
-const MORPH_DURATION = 3;
-const LINES_DURATION = 1;
+const MORPH_DURATION = 1.8; // ← était 3
+const LINES_DURATION = 0.8; // ← était 1
 const TEXT_DURATION = 0.8;
 
 const router = useRouter();
@@ -105,8 +105,8 @@ onMounted(() => {
 
   gsap.to(lineIds, {
     opacity: 1,
-    duration: 0.4,
-    stagger: 0.15,
+    duration: 0.3, // ← était 0.4
+    stagger: 0.08, // ← était 0.15
     ease: "power2.inOut",
   });
 
@@ -129,7 +129,7 @@ onMounted(() => {
         strokeDashoffset: 0,
         duration: LINES_DURATION,
         ease: "power2.inOut",
-        stagger: 0.15,
+        stagger: 0.1, // ← était 0.15
       })
       .call(() => {
         morphTweens.forEach((t) => {

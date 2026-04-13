@@ -66,6 +66,7 @@ defineProps<{
   max-width: 90%;
   margin-inline: auto;
   margin-block: 32px;
+  text-shadow: 0 0 3px white;
 }
 
 .team-section {
