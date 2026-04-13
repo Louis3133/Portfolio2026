@@ -284,6 +284,8 @@ $flap-delay-out: 0.4s;
 
   &.stats-green {
     color: $green-100;
+    text-shadow: 0 0 3px $green-100;
+
     .stats-progression-bar {
       border: 2px solid $green-100;
       width: 112px;
@@ -302,6 +304,8 @@ $flap-delay-out: 0.4s;
 
   &.stats-yellow {
     color: $yellow-100;
+    text-shadow: 0 0 3px $yellow-100;
+
     .stats-progression-bar {
       border: 2px solid $yellow-100;
       width: 112px;
@@ -320,6 +324,8 @@ $flap-delay-out: 0.4s;
 
   &.stats-purple {
     color: #a602a6;
+    text-shadow: 0 0 3px #a602a6;
+
     .stats-progression-bar {
       border: 2px solid #a602a6;
       width: 112px;
@@ -338,6 +344,8 @@ $flap-delay-out: 0.4s;
 
   &.stats-pink {
     color: $pink-100;
+    text-shadow: 0 0 3px $pink-100;
+
     .stats-progression-bar {
       border: 2px solid $pink-100;
       width: 112px;
@@ -356,6 +364,8 @@ $flap-delay-out: 0.4s;
 
   &.stats-blue {
     color: $blue-200;
+    text-shadow: 0 0 3px $blue-200;
+
     .stats-progression-bar {
       border: 2px solid $blue-200;
       width: 112px;

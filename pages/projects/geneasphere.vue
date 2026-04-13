@@ -205,6 +205,10 @@ definePageMeta({
       :members="[{ gender: 'male', lastname: 'L', firstname: 'Louis', job: 'Développeur', link: 'https://www.linkedin.com/in/louis-le-doussal-206b7a278/' }]"
       :projects="[{ type: 'school', description: 'BUT MMI', title: 'Projet étudiant' }]"
       intentions="Mon objectif pour ces trois semaines était de sortir de ma zone de confort en apprenant de nouvelles technologies. Pratiquant déjà Vue.js, j'ai choisi de structurer ce projet avec Nuxt. Pour maîtriser ce framework, je me suis formé intensivement pour en comprendre les subtilités. Je souhaitais aussi perfectionner mes connaissances en Three.js. L'idée d'une représentation en 3D pour un arbre généalogique m'a semblé être la plus pertinente : elle permet de naviguer dans des structures familiales complexes et denses sans subir les contraintes d'espace d'un affichage en 2D classique."
+      title-image1="Création d'un arbre"
+      image1="/geneasphere-2.webp"
+      title-image2="Détail d'un arbre"
+      image2="/geneasphere-1.webp"
     />
     <div class="valid-geneasphere" />
   </div>

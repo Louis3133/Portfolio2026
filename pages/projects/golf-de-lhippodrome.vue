@@ -205,6 +205,10 @@ definePageMeta({
       :members="[{ gender: 'female', lastname: 'B', firstname: 'Léa', job: 'Cheffe de projet', link: 'https://www.linkedin.com/in/l%C3%A9a-bruyeres-24a428172/' }, { gender: 'male', lastname: 'K', firstname: 'Julien', job: 'Lead intégrateur', link: 'https://www.linkedin.com/in/hbenabdi/' }, { gender: 'male', lastname: 'L', firstname: 'Louis', job: 'Intégrateur', link: 'https://www.linkedin.com/in/louis-le-doussal-206b7a278/' }]"
       :projects="[{ type: 'enterprise', description: 'Entreprise', title: 'Kaizen Agency' }]"
       intentions="La maquette ayant été conçue par l'équipe créative de Kaizen, j'ai pu m'impliquer dès la phase de conception en étant force de proposition. Au moment de l’intégration, j’ai cherché à apporter ma touche personnelle via des animations fluides et discrètes pour dynamiser le site tout en respectant sa sobriété. Ce projet a surtout été l'occasion de confirmer mon autonomie et d’approfondir ma maîtrise de la bibliothèque GSAP."
+      title-image1="Section &quot;Tarifs&quot;"
+      image1="/golf-hippodrome-2.webp"
+      title-image2="Hero de la page"
+      image2="/golf-hippodrome-1.webp"
     />
     <div class="valid-golf" />
   </div>

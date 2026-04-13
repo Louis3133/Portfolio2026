@@ -204,7 +204,11 @@ definePageMeta({
       :informations="[{ link: 'https://affilae-v2.staging2.kaizen-developments.com/fr/accueil/', text: 'Lien vers le staging' }]"
       :members="[{ gender: 'female', lastname: 'B', firstname: 'Habiba', job: 'Cheffe de projet', link: 'https://www.linkedin.com/in/hbenabdi/' }, { gender: 'male', lastname: 'K', firstname: 'Julien', job: 'Lead intégrateur', link: 'https://www.linkedin.com/in/julien-kircher-4a048691/' }, { gender: 'male', lastname: 'M', firstname: 'Antoine', job: 'Intégrateur', link: 'https://www.linkedin.com/in/antoine-moyet-94a47984/' }]"
       :projects="[{ type: 'enterprise', description: 'Entreprise', title: 'Kaizen Agency' }]"
-      intentions="Le design ayant été réalisé en interne par Affilae, ma mission première était de respecter scrupuleusement leurs maquettes. Toutefois, j’ai été force de proposition en suggérant plusieurs animations pour rendre l’interface plus dynamique . J’ai pris quelques libertés créatives pour apporter du “juice” au site, une initiative qui a été très bien accueillie par leurs équipes."
+      intentions="Le design ayant été réalisé en interne par Affilae, ma mission première était de respecter scrupuleusement leurs maquettes. <span class='shake-text'>Toutefois, j’ai été force de proposition</span> en suggérant plusieurs animations pour rendre l’interface plus dynamique. J’ai pris quelques libertés créatives pour <span class='shake-text'>apporter du “juice” au site</span>, une initiative qui a été très bien accueillie par leurs équipes."
+      title-image1="Test hihi"
+      image1="/affilae-2.webp"
+      title-image2="Test hihi 2"
+      image2="/affilae-1.webp"
     />
     <div class="valid" />
   </div>
